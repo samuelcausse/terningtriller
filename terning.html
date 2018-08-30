@@ -1,0 +1,29 @@
+<DOCTYPE! html>
+<head>
+    <meta charset = "utf-8">
+    <title>Terning</title>
+    <link rel="stylesheet" href="forstetimecss.css">
+</head>
+
+<body>
+    <h1>Samuels terningtriller</h1>
+    <img id="imgTerning">
+    <br>
+    <br>
+    <h id ="parTekst"></h>
+    <br>
+    <br>
+    <button onclick="myfunction()">Trill terning</button>
+    <script>
+        function myfunction() {
+
+        var terning = Math.ceil(Math.random () *6);
+        document.getElementById("imgTerning").src = terning + ".png";
+
+        document.getElementById("parTekst").innerHTML = "Du trillet en " + terning + "'er!! Grattla...";
+        }
+    </script>
+    
+</body>
+
+</html>

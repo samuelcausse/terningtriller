@@ -1,0 +1,15 @@
+body {
+    background-color: #333333;
+    text-shadow: 1px 1px 10px;
+    color: aliceblue;
+}
+
+div {
+    background-color: rgb(160, 126, 190);
+    text-align: center;
+    border-radius: 16px;
+    padding: 100px;
+    margin: 80px;
+    box-shadow: 6px 6px 20px;
+
+}
